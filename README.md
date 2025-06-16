@@ -18,7 +18,18 @@ A full-stack ASP.NET Core MVC web application for managing an online bookstore. 
 
 ## 🏗️ Project Structure
 
-<pre> \```plaintext Book_Store/ ├── Bulky.DataAccess # Data access layer (EF Core, Repositories, UoW) ├── Bulky.Models # Data models ├── Bulky.Utility # Static constants, helpers, and roles ├── BulkyBook.DataAccess # Database context and seeding ├── BulkyBookWeb # Main ASP.NET Core MVC web app │ ├── Controllers │ ├── Views │ └── wwwroot # Static files (CSS, JS, etc.) \``` </pre>
+```plaintext
+Book_Store/
+├── Bulky.DataAccess         # Data access layer (EF Core, Repositories, UoW)
+├── Bulky.Models             # Data models
+├── Bulky.Utility            # Static constants, helpers, and roles
+├── BulkyBook.DataAccess     # Database context and seeding
+├── BulkyBookWeb             # Main ASP.NET Core MVC web app
+│   ├── Controllers
+│   ├── Views
+│   └── wwwroot              # Static files (CSS, JS, etc.)
+```
+
 
 ## 🛠️ Technologies Used
 

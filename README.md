@@ -1,6 +1,6 @@
 # 📘 Book Store – ASP.NET Core MVC Web Application
 
-A full-stack ASP.NET Core MVC web application for managing an online bookstore. This project demonstrates best practices in ASP.NET development, including layered architecture, Entity Framework Core, Repository & Unit of Work patterns, and Identity-based authentication and authorization.
+A full-stack ASP.NET Core MVC web application for managing an online bookstore. This project demonstrates best practices in ASP.NET development, including layered architecture, Entity Framework Core, repository and unit of Work patterns, and Identity-based authentication and authorization.
 
 ## 🚀 Features
 
@@ -53,11 +53,15 @@ Book_Store/
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mahmoudmagdy99/Book_Store_WebSite.git
-2-Open the solution in Visual Studio.
+   
+2- Open the solution in Visual Studio.
 
 3-Update the appsettings.json connection string to match your SQL Server setup:
 "ConnectionStrings": {
   "DefaultConnection": "Server=(LocalDb)\\MSSQLLocalDB;Database=BulkyNew;Trusted_Connection=True;TrustServerCertificate=True"
 }
+
 4-Apply migrations (Package Manager Console):
 Update-Database
+
+5-Run the project (F5 or Ctrl+F5).

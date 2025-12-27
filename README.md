@@ -43,26 +43,7 @@ Book_Store/
 - LINQ
 - Visual Studio 2022
 
-## 🧪 Getting Started
 
-### Prerequisites
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
-- [SQL Server LocalDB](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/)
-
-### Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mahmoudmagdy99/Book_Store_WebSite.git
-   
-2- Open the solution in Visual Studio.
-
-3-Update the appsettings.json connection string to match your SQL Server setup:
-"ConnectionStrings": {
-  "DefaultConnection": "Server=(LocalDb)\\MSSQLLocalDB;Database=BulkyNew;Trusted_Connection=True;TrustServerCertificate=True"
-}
 
 4-Apply migrations (Package Manager Console):
 Update-Database
